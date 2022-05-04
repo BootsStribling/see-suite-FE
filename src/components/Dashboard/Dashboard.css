@@ -1,0 +1,24 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.metrics {
+    margin: 2.5px;
+    height: 250px;
+    width: 325px;
+    border: 2.5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.metrics h1 {
+    margin: 0;
+    /* display: inline-block; */
+    width: fit-content;
+}

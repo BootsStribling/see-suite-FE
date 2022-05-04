@@ -1,0 +1,28 @@
+nav {
+    margin: 0px 0px 20px 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+

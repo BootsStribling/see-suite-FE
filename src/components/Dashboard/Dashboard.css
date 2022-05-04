@@ -46,6 +46,6 @@
 }
 
 .text-link {
-  color: inherit;
-  text-decoration: inherit;
+    color: white;
+    text-decoration: none;
 }

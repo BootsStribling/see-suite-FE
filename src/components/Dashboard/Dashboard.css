@@ -22,3 +22,8 @@
     /* display: inline-block; */
     width: fit-content;
 }
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}

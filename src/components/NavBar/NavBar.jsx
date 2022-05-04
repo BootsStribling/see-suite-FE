@@ -11,14 +11,14 @@ const NavBar = () => {
             <li className='greeting'>Hello Stakeholder!</li>
           </div>
           <ul>
-            <li><Link to="/sales">Sales</Link></li>
-            <li><Link to="">Loan Payments</Link></li>
-            <li><Link to="">Inventory</Link></li>
-            <li><Link to="">Commission</Link></li>
+            <li><Link className='text-link' to="/sales" style={{ textDecoration: 'none' }}>Sales</Link></li>
+            <li><Link className='text-link' to="" style={{ textDecoration: 'none' }}>Loan Payments</Link></li>
+            <li><Link className='text-link' to="" style={{ textDecoration: 'none' }}>Inventory</Link></li>
+            <li><Link className='text-link' to="" >Commission</Link></li>
           </ul>
         </nav>
         <Routes>
-          <Route path="/" element={ <Dashboard />} />
+          <Route path="/" exact element={ <Dashboard />} />
           <Route path="/sales" element={ <Sales />} />
         </Routes>
     

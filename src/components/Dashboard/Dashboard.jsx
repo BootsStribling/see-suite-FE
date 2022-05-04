@@ -6,16 +6,16 @@ function Dashboard() {
     <>
       <div className="dashboard">
         <div className="metrics">
-          <h1><Link to="/sales">Sales</Link></h1>
+          <h1><Link className='text-link' to="/sales">Sales</Link></h1>
         </div>
         <div className="metrics">
-          <h1>Loan Payments</h1>
+          <h1><Link className='text-link' to="">Loan Payments</Link></h1>
         </div>
         <div className="metrics">
-          <h1>Inventory</h1>
+        <h1><Link className='text-link' to="">Inventory</Link></h1>
         </div>
         <div className="metrics">
-          <h1>Commission</h1>
+        <h1><Link className='text-link' to="">Commissions</Link></h1>
         </div>
       </div>
     </>

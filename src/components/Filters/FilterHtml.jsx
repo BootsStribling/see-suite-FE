@@ -1,21 +1,22 @@
 import { useState, useEffect } from "react";
 import FilterItems from "./FilterItems";
+import css from './Filters.css'
 
 const filterHtml = ({filterChange}) => {
     return (
         <>
             <details>
-                <summary>Global</summary>
+                <summary className='summary'>Global</summary>
                 <ul>
                     <li>
                         <details>
-                            <summary>Country</summary>
+                            <summary className='country'>Country</summary>
                             <ul>
                                 <li>
-                                    <button onClick={(e) => filterChange(1, "country")}>Haiti</button>
+                                    <button className='haitiBtn' onClick={(e) => filterChange(1, "country")}>Haiti</button>
                                     <details>
-                                        <summary>Department</summary>
-                                        <ul>
+                                        <summary className='department'>Department</summary>
+                                        <ul className='dropdown'>
                                             <li>1</li>
                                             <li>2</li>
                                             <li>3</li>

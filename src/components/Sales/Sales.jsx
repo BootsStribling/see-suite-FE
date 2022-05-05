@@ -8,6 +8,7 @@ import {Label} from 'semantic-ui-react'
 
 
 
+
 const Sales = () =>  {
   const[loanSales, setLoanSales] = useState()
   const[cashSales, setCashSales] = useState()
@@ -32,23 +33,23 @@ const Sales = () =>  {
     const filterChange = (id, group) => setFilter(id)
 
   return (
-    <div className={css.pieChartContainer}>
-      <div className={css.legend}>
-          <div className={css.legendName}>
+    <div className='pieChartContainer'>
+      <div className='legend'>
+          <div className='legendName'>
             <Label 
               color={'yellow'}>
             </Label>
             <p>Loans</p>
           </div>
-          <div className={css.legendName}>
+          <div className='legendName'>
             <Label 
               color={'teal'}>
             </Label>
             <p>Cash</p>
           </div>
         </div>
-      <div className={css.pieChartContainer}>
-        <div className={css.pieChart}>
+      <div className='pieChartContainer1'>
+        <div className='pieChart'>
           <PieChart
             data={[
               // { title: 'Cash', value: loanSales, color: '#F3B538' },

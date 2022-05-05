@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react'
 import { PieChart } from 'react-minimal-pie-chart'
 import * as salesService from '../../services/salesService'
 
+
 const Sales = () =>  {
   const[loanSales, setLoanSales] = useState()
   const[cashSales, setCashSales] = useState()
@@ -25,9 +26,23 @@ const Sales = () =>  {
   },[filter])
 
   return (
-    <>
-      <div className={css.piechartcontainer}>
-        <div className={css.piechart}>
+    <div className='pieChartContainer'>
+      <div className='legend'>
+          <div className='legendName'>
+            <Label 
+              color={'yellow'}>
+            </Label>
+            <p>Loans</p>
+          </div>
+          <div className='legendName'>
+            <Label 
+              color={'teal'}>
+            </Label>
+            <p>Cash</p>
+          </div>
+        </div>
+      <div className='pieChartContainer1'>
+        <div className='pieChart'>
           <PieChart
             data={[
               { title: 'Cash', value: loanSales, color: '#E38627' },

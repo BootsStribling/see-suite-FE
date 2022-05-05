@@ -13,20 +13,8 @@ export const getDistributorTotal = () => {
   .catch(err => console.log(err))
 }
 
-export const getCommunityTotal = (id) => {
-  return fetch(`${BASE_URL}/community/${id}`)
-  .then(res => res.json())
-  .catch(err => console.log(err))
-}
-
-export const getDepartmentTotal = (id) => {
-  return fetch(`${BASE_URL}/department/${id}`)
-  .then(res => res.json())
-  .catch(err => console.log(err))
-}
-
-export const getCountryTotal = (id) => {
-  return fetch(`${BASE_URL}/country/${id}`)
+export const getGroupTotal = (id, group) => {
+  return fetch(`${BASE_URL}/${group}/${id}`)
   .then(res => res.json())
   .catch(err => console.log(err))
 }

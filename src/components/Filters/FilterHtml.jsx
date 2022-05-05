@@ -1,26 +1,29 @@
 import { useState, useEffect } from "react";
 import FilterItems from "./FilterItems";
+import css from './Filters.css'
 import css from './FilterHtml.css'
-
 
 const filterHtml = ({filterChange}) => {
     return (
         <>
-            <details className={css.details}>
-                <summary>Global</summary>
-                <ul className={css.ul}>
+
+            <details>
+                <summary className='summary'>Global</summary>
+                <ul>
                     <li>
                         <details>
-                            <summary>Country</summary>
+                            <summary className='country'>Country</summary>
                             <ul>
                                 <li>
-                                    <button onClick={(e) => filterChange(1, "country")}>Haiti</button>
+                                    <button className='haitiBtn' onClick={(e) => filterChange(1, "country")}>Haiti</button>
                                     <details>
-                                        <summary>Department</summary>
+
+                                    
+                                    <summary>Department</summary>
                                         <ul>
                                             <li>
                                                 <details>
-                                                    <summary className="css.artbonite">Artbonite</summary>
+                                                    <summary>Artbonite</summary>
                                                     <ul>
                                                         <li>
                                                             <button onClick={(e) => filterChange(22)}>Deschapelle</button>
@@ -37,7 +40,6 @@ const filterHtml = ({filterChange}) => {
                                                         <li>
                                                             <button onClick={(e) => filterChange(15)}>St.Michel</button>
                                                         </li>
-                                                        
                                                     </ul>
                                                 </details>
                                             </li>
@@ -141,24 +143,24 @@ const filterHtml = ({filterChange}) => {
                                                     </ul>
                                                 </details>
                                             </li>
-                                            <li>
-                                                <details>
-                                                    <summary>Norde-Ouest</summary>
-                                                    <ul>
-                                                        <li>
-                                                            <button onClick={(e) => filterChange()}>ABCD</button>
-                                                        </li>
-                                                        <li>
-                                                            <button onClick={(e) => filterChange()}>ABCD</button>
-                                                        </li>
-                                                        <li>
-                                                            <button onClick={(e) => filterChange()}>ABCD</button>
-                                                        </li>
-                                                        <li>
-                                                            <button onClick={(e) => filterChange()}>ABCD</button>
-                                                        </li>
-                                                    </ul>
-                                                </details>
+                                            <li> Norde-Ouest
+//                                                 <details>
+//                                                     <summary>Norde-Ouest</summary>
+// //                                                     <ul>
+//                                                         <li>
+//                                                             <button onClick={(e) => filterChange()}>ABCD</button>
+//                                                         </li>
+//                                                         <li>
+//                                                             <button onClick={(e) => filterChange()}>ABCD</button>
+//                                                         </li>
+//                                                         <li>
+//                                                             <button onClick={(e) => filterChange()}>ABCD</button>
+//                                                         </li>
+//                                                         <li>
+//                                                             <button onClick={(e) => filterChange()}>ABCD</button>
+//                                                         </li>
+//                                                     </ul>
+//                                                 </details>
                                             </li>
                                             <li>
                                                 Ouest

@@ -1,23 +1,25 @@
+
 .pieChart {
     width: clamp(300px,50vw,1000px);
     height: auto;
 }
 .pieChartContainer {
-    display: flex;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    /* grid-template-rows: 1fr 1fr 1fr;  */
+    gap: 0px 0px; 
+    gap: 0px 0px; 
     width:100vw;
     height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .legend {
-    width: 100px; 
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    margin-top: 200px;
+    margin-left: 100px;
+    /* width: 100px;  */
+    /* gap: 10px; */
 }
 
 .legendName {
-    display: flex;
     justify-content: space-evenly;
+    font-size: 20px;
 }

@@ -7,26 +7,34 @@ export default function Sales() {
   return (
     <div className="pieChartContainer">
       <div className='legend'>
-        <Label 
-          color={'yellow'}>
-        </Label>
-        <Label 
-          color={'teal'}>
-        </Label>cash
-      </div>
+          <div className='legendName'>
+            <Label 
+              color={'yellow'}>
+            </Label>
+            <p>Loans</p>
+          </div>
+          <div className='legendName'>
+            <Label 
+              color={'teal'}>
+            </Label>
+            <p>Cash</p>
+          </div>
+        </div>
 
       <PieChart className="pieChart"
-      data= {[
-        { title: 'One', value: 15, color: '#F3B538' },
-        { title: 'Two', value: 15, color: '#3DB1AB' },
-      ]}
-      radius={40}
-      lineWidth={30}   
-      startAngle={90}
-      paddingAngle={7}
-      
-    
-    />
+        data= {[
+          { title: 'One', value: 15, color: '#F3B538' },
+          { title: 'Two', value: 15, color: '#3DB1AB' },
+        ]}
+        label={({ dataEntry }) => dataEntry.value}
+        radius={40}
+        lineWidth={30}   
+        startAngle={90}
+        paddingAngle={7}
+        labelStyle={{fontSize:'10px'}}
+        // onMouseOver={() => {console.log('hello')}}
+        animate
+      />
     </div>
   )
 }

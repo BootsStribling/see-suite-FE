@@ -8,6 +8,6 @@
 }
 
 .piechart{
-  width: 50vw;
+  width: clamp(300px,50vw,1000px);
   height: auto;
 }

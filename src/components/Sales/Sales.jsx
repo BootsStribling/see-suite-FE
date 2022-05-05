@@ -1,5 +1,6 @@
 import css from './Sales.css'
 import Filters from "../Filters/Filters";
+import FilterHtml from '../Filters/FilterHtml';
 import {useState, useEffect} from 'react'
 import {PieChart} from 'react-minimal-pie-chart'
 import * as salesService from '../../services/salesService'
@@ -27,6 +28,8 @@ const Sales = () =>  {
       setCashSales(res[2])
     })
   },[filter])
+
+    const filterChange = (id, group) => setFilter(id)
 
   return (
     <div className={css.pieChartContainer}>
@@ -65,7 +68,8 @@ const Sales = () =>  {
           />
         </div>
       </div>
-    <Filters />
+    {/* <Filters filterChange={filterChange}  /> */}
+    <FilterHtml filterChange={filterChange}/>
     </div>
   )
 }

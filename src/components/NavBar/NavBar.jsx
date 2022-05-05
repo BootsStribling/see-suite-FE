@@ -23,7 +23,7 @@ const NavBar = () => {
         </div>
         <ul>
           {renderNavLink("/sales", "Sales")}
-          {renderNavLink("", "Loan Payments")}
+          {renderNavLink("", "Payments")}
           {renderNavLink("", "Inventory")}
           {renderNavLink("", "Commisions")}
         </ul>

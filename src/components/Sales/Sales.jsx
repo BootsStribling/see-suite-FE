@@ -48,8 +48,10 @@ const Sales = () =>  {
         <div className={css.pieChart}>
           <PieChart
             data={[
-              { title: 'Cash', value: loanSales, color: '#E38627' },
-              { title: 'Loan', value: cashSales, color: '#C13C37' },
+              // { title: 'Cash', value: loanSales, color: '#F3B538' },
+              // { title: 'Loan', value: cashSales, color: '##3DB1AB' },
+              { title: 'Cash', value: 15, color: '#F3B538' },
+              { title: 'Loan', value: 15, color: '#3DB1AB' },
             ]}
             label={({ dataEntry }) => dataEntry.value}
             startAngle={90}
@@ -58,7 +60,7 @@ const Sales = () =>  {
             labelStyle={{fontSize:'10px'}}
             paddingAngle={7}
             lineWidth={30}  
-            radius={40}
+            radius={30}
             // onMouseOver={() => {console.log('hello')}}
           />
         </div>

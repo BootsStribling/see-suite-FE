@@ -1,3 +1,5 @@
+
+import Filters from "../Filters/Filters";
 import css from './Sales.module.css'
 import {useState, useEffect} from 'react'
 import { PieChart } from 'react-minimal-pie-chart'
@@ -26,6 +28,8 @@ const Sales = () =>  {
 
   return (
     <>
+     
+
       <div className={css.piechartcontainer}>
         <div className={css.piechart}>
           <PieChart
@@ -41,8 +45,9 @@ const Sales = () =>  {
           />
         </div>
       </div>
+    <Filters />
     </>
   )
 }
 
-export default Sales
+export default Sales;

@@ -1,15 +1,28 @@
-ul {
+.list{
     display: inline;
 }
 
 details {
     align-items: center;
-    width: 30%;
+    width: 200px;
+    text-align: left;
 }
 
 button {
     background-color: transparent;
     border-color: transparent;
+    text-align: left;
+}
+li{
+    text-align: left;
 }
 
+.summary {
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+}
 

@@ -25,23 +25,4 @@
     outline: 1px auto -webkit-focus-ring-color;
    }
 
-   .summary {
-    margin-top: 200px;
-    font-size: 20px;
-   }
-
-   .dropdown {
-       display: inline-block;
-   }
-
-   .haitiBtn {
-       margin-bottom: 10px;
-   }
-
-   .country {
-       font-size: 18px;
-   }
-
-   .department {
-       font-size: 15px;
-   }
+   

@@ -7,7 +7,6 @@ import * as salesService from '../../services/salesService'
 const Sales = () =>  {
   const[loanSales, setLoanSales] = useState()
   const[cashSales, setCashSales] = useState()
-  const[filter, setFilter] = useState()
 
   useEffect(() => {
     salesService.getTransactionTotal()
@@ -16,14 +15,14 @@ const Sales = () =>  {
       setCashSales(res[2])
     })
   },[])
-
-  useEffect(() => {
-    salesService.getTransactionTotal()
+  
+  const filterChange = (id, group) => {
+    salesService.getGroupTotal(id,group)
     .then(res => {
       setLoanSales(res[1])
       setCashSales(res[2])
     })
-  },[filter])
+  }
 
   return (
     <div className='pieChartContainer'>
@@ -45,8 +44,10 @@ const Sales = () =>  {
         <div className='pieChart'>
           <PieChart
             data={[
-              { title: 'Cash', value: loanSales, color: '#E38627' },
-              { title: 'Loan', value: cashSales, color: '#C13C37' },
+              { title: 'Cash', value: cashSales, color: '#F3B538' },
+              { title: 'Loan', value: loanSales, color: '#3DB1AB' },
+              // { title: 'Cash', value: 15, color: '#F3B538' },
+              // { title: 'Loan', value: 15, color: '#3DB1AB' },
             ]}
             startAngle={270}
             animate={true}

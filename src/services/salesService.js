@@ -5,3 +5,15 @@ export const getTransactionTotal = () => {
   .then(res => res.json())
   .catch(err => console.log(err))
 }
+
+export const getDistributorTotal = () => {
+  return fetch(`${BASE_URL}/distributors`)
+  .then(res => res.json())
+  .catch(err => console.log(err))
+}
+
+export const getGroupTotal = (id, group) => {
+  return fetch(`${BASE_URL}/${group}/${id}`)
+  .then(res => res.json())
+  .catch(err => console.log(err))
+}

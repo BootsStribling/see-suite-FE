@@ -1,12 +1,7 @@
-import css from './Sales.css'
-import Filters from "../Filters/Filters";
-import FilterHtml from '../Filters/FilterHtml';
+import css from './Sales.module.css'
 import {useState, useEffect} from 'react'
-import {PieChart} from 'react-minimal-pie-chart'
+import { PieChart } from 'react-minimal-pie-chart'
 import * as salesService from '../../services/salesService'
-import {Label} from 'semantic-ui-react'
-
-
 
 
 const Sales = () =>  {
@@ -20,15 +15,14 @@ const Sales = () =>  {
       setCashSales(res[2])
     })
   },[])
-
-
-    const filterChange = (id, group) => {
-      salesService.getGroupTotal(id,group)
-      .then(res => {
-        setLoanSales(res[1])
-        setCashSales(res[2])
-      })
-    }
+  
+  const filterChange = (id, group) => {
+    salesService.getGroupTotal(id,group)
+    .then(res => {
+      setLoanSales(res[1])
+      setCashSales(res[2])
+    })
+  }
 
   return (
     <div className='pieChartContainer'>
@@ -55,22 +49,16 @@ const Sales = () =>  {
               // { title: 'Cash', value: 15, color: '#F3B538' },
               // { title: 'Loan', value: 15, color: '#3DB1AB' },
             ]}
-            label={({ dataEntry }) => dataEntry.value}
-            startAngle={90}
+            startAngle={270}
             animate={true}
             animationDuration={2000}
-            labelStyle={{fontSize:'10px'}}
-            paddingAngle={7}
-            lineWidth={30}  
-            radius={30}
-            // onMouseOver={() => {console.log('hello')}}
+            labelStyle={css}
+
           />
         </div>
       </div>
-    {/* <Filters filterChange={filterChange}  /> */}
-    <FilterHtml filterChange={filterChange}/>
-    </div>
+    </>
   )
 }
 
-export default Sales;
+export default Sales

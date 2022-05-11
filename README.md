@@ -31,6 +31,9 @@ From research to presentation of this application we were given 60 hours to work
 ## Design
   ### Tech Used
   ![](https://img.shields.io/badge/-FIGMA-F24E1E?style=flat-square&logo=figma5&logoColor=white)
+  
+  Click [here](https://www.figma.com/proto/nvn155crlqq30uwhgjCUev/Executive-Dashboard?page-id=39%3[…]C48%2C0.08&scaling=scale-down&starting-point-node-id=66%3A4667
+) to start the Figma demo.
 
   ![](./public/images/Design-Landing-half.png)
   ![](./public/images/Design-Sales-half.png)

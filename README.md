@@ -1,4 +1,6 @@
-# See-Suite - Team 2 International Aid Hackathon Application (05.03.2022 to 05.05.2022)
+# See-Suite  Front-End - Team 2 International Aid Hackathon Application (05.03.2022 to 05.05.2022)
+
+[Link to API](https://github.com/BootsStribling/international-aid-api)
 
 ## ABOUT
 This project was constructed as part of an General Assembly Hackathon for an international aid organization called Unlocking Communities. Unlocking Communities is an organization that "...equips entrepreneurs with the education and tools to sell sustainable products that unlock economic, social, and environmental transformation in their communities." More information about Unlocking Communities can be found [here.](https://unlockingcommunities.org/our-mission/)

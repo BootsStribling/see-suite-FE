@@ -26,12 +26,6 @@ From research to presentation of this application we were given 60 hours to work
 * ![Boots Stribling](./public/images/team/boots-stribling.png)
 [Boots Stribling](https://github.com/BootsStribling) - Software Engineer - Scrum Master
 
-## TECHNOLOGY USED
-
-
-![](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git) 
-
-
 ## Design
   ### Tech Used
 

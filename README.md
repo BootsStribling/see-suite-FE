@@ -8,18 +8,30 @@ The Hackathon parameters were to create an application with at least one feature
 ## OUR TEAM
 
 ![Meagan Bleach](./public/images/team/meagan-bleach.png) 
-Meagan Bleach- UI/UX Designer
-![Meagan Bleach]()
-![Meagan Bleach]()
-![Meagan Bleach]()
-![Meagan Bleach]()
-![Meagan Bleach]()
-![Meagan Bleach]()
+Meagan Bleach - UI/UX Designer
+![Rachel Wynne-Bernstein](./public/images/team/rachel-wynne-bernstein.png)
+Rachel Wynne-Bernstein - UI/UX Designer
+![Talon Krell](./public/images/team/talon-krell.png)
+Talon Krell - UI/UX Designer
+![Robb Herndon](./public/images/team/robb-herndon.png)
+[Robb Herndon]() - Data Scientist
+![Najee Simmons](./public/images/team/najee-simmons.png)
+[Najee Simmons]() - Software Engineer
+![Haziq Naeem](./public/images/team/haziq-naeem.png)
+[Haziq Naeem]() - Software Engineer
+![Bredell Evans](./public/images/team/bredell-evans.png)
+[Bredell Evans]() - Software Engineer
+![Boots Stribling](./public/images/team/boots-stribling.png)
+[Boots Stribling]() - Software Engineer - Scrum Master
 
 ## TECHNOLOGY USED
 
 ## FEATURES
   ### Front-End
+    
+    #### Design
+
+    #### Result
 
   ### Back-End
 

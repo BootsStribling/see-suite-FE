@@ -9,8 +9,6 @@ From research to presentation of this application we were given 60 hours to work
 
 ## AWARDS -  🎗 🥈 2nd Place 🥈 🎗
 
-Our team was awarded 🥈 2nd Place 🥈 for this project!
-
 ## OUR TEAM
 
 * ![Meagan Bleach](./public/images/team/meagan-bleach.png) 

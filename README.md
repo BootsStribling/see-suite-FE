@@ -14,24 +14,23 @@ The Hackathon parameters were to create an application with at least one feature
 * ![Talon Krell](./public/images/team/talon-krell.png)
   Talon Krell - UI/UX Designer
 * ![Robb Herndon](./public/images/team/robb-herndon.png)
-[Robb Herndon]() - Data Scientist
+[Robb Herndon](https://github.com/robbherndon) - Data Scientist
 * ![Najee Simmons](./public/images/team/najee-simmons.png)
-[Najee Simmons]() - Software Engineer
+[Najee Simmons](https://github.com/najeesimmons) - Software Engineer
 * ![Haziq Naeem](./public/images/team/haziq-naeem.png)
-[Haziq Naeem]() - Software Engineer
+[Haziq Naeem](https://github.com/Haziq12) - Software Engineer
 * ![Bredell Evans](./public/images/team/bredell-evans.png)
-[Bredell Evans]() - Software Engineer
+[Bredell Evans](https://github.com/bredy452) - Software Engineer
 * ![Boots Stribling](./public/images/team/boots-stribling.png)
-[Boots Stribling]() - Software Engineer - Scrum Master
+[Boots Stribling](https://github.com/BootsStribling) - Software Engineer - Scrum Master
 
 ## TECHNOLOGY USED
 
 ## FEATURES
   ### Front-End
-    
-    #### Design
+   * Design
 
-    #### Result
+   * Result
 
   ### Back-End
 

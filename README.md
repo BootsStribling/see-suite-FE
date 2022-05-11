@@ -7,7 +7,8 @@ The Hackathon parameters were to create an application with at least one feature
 
 ## OUR TEAM
 
-![Meagan Bleach](./public/images/team/meagan-bleach.png) Meagan Bleach
+![Meagan Bleach](./public/images/team/meagan-bleach.png) 
+Meagan Bleach- UI/UX Designer
 ![Meagan Bleach]()
 ![Meagan Bleach]()
 ![Meagan Bleach]()

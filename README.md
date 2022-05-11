@@ -7,6 +7,10 @@ The Hackathon parameters were to create an application with at least one feature
 
 From research to presentation of this application we were given 60 hours to work.
 
+## AWARDS -  🎗 🥈 2nd Place 🥈 🎗
+
+Our team was awarded 🥈 2nd Place 🥈 for this project!
+
 ## OUR TEAM
 
 * ![Meagan Bleach](./public/images/team/meagan-bleach.png) 
@@ -51,7 +55,13 @@ From research to presentation of this application we were given 60 hours to work
   ![](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
   ![](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white)
 
-  * 
+  ![ERD](./public/images/ERD.png)
+
+  * Using SQLAlchemy and PostGreSQL we implemented a constructive API focusing on transactions as the most elemental level of the represenation
+  * We built routes with queries to the PostGreSQL database to allow for summation of transaction totals for representation.
+  * The totals were sent in lightweight JSON format. Data was only one array comprising [Transaction Total, Loan Total, Cash Total]
+
+
 
 ## V2 Expectations
   This project, along with the other 4 teams who participated, was handed to Deloitte as a prototype for them to build the working application with. While we do not know the status of that application, we certainly hope that our time and code was used effectively to the aid of those in the countries it was deployed in. 

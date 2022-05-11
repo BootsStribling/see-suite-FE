@@ -11,21 +11,21 @@ From research to presentation of this application we were given 60 hours to work
 
 ## OUR TEAM
 
-* ![Meagan Bleach](./public/images/team/meagan-bleach.png) 
+- ![Meagan Bleach](./public/images/team/meagan-bleach.png) 
   [Meagan Bleach](https://www.linkedin.com/in/meaganbleach/) - UI/UX Designer
-* ![Rachel Wynne-Bernstein](./public/images/team/rachel-wynne-bernstein.png)
+- ![Rachel Wynne-Bernstein](./public/images/team/rachel-wynne-bernstein.png)
   [Rachel Wynne-Bernstein](https://www.linkedin.com/in/rachelwynnebernstein/) - UI/UX Designer
-* ![Talon Krell](./public/images/team/talon-krell.png)
+- ![Talon Krell](./public/images/team/talon-krell.png)
   [Talon Krell](https://www.linkedin.com/in/talon-krell/) - UI/UX Designer
-* ![Robb Herndon](./public/images/team/robb-herndon.png)
+- ![Robb Herndon](./public/images/team/robb-herndon.png)
 [Robb Herndon](https://github.com/robbherndon) - Data Scientist
-* ![Najee Simmons](./public/images/team/najee-simmons.png)
+- ![Najee Simmons](./public/images/team/najee-simmons.png)
 [Najee Simmons](https://github.com/najeesimmons) - Software Engineer
-* ![Haziq Naeem](./public/images/team/haziq-naeem.png)
+- ![Haziq Naeem](./public/images/team/haziq-naeem.png)
 [Haziq Naeem](https://github.com/Haziq12) - Software Engineer
-* ![Bredell Evans](./public/images/team/bredell-evans.png)
+- ![Bredell Evans](./public/images/team/bredell-evans.png)
 [Bredell Evans](https://github.com/bredy452) - Software Engineer
-* ![Boots Stribling](./public/images/team/boots-stribling.png)
+- ![Boots Stribling](./public/images/team/boots-stribling.png)
 [Boots Stribling](https://github.com/BootsStribling) - Software Engineer - Scrum Master
 
 ## Design
@@ -55,11 +55,11 @@ From research to presentation of this application we were given 60 hours to work
 
   ![ERD](./public/images/ERD.png)
 
-  * Using SQLAlchemy and PostGreSQL we implemented a constructive API focusing on transactions as the most elemental level of the represenation
+  * Using Flask, SQLAlchemy and PostGreSQL we implemented a constructive API focusing on transactions as the most elemental level of the represenation
   * We built routes with queries to the PostGreSQL database to allow for summation of transaction totals for representation.
   * The totals were sent in lightweight JSON format. Data was only one array comprising [Transaction Total, Loan Total, Cash Total]
-
-
+  * Transaction creation routes were created for eventual integration into Android Mobile App designed by Team 1
+  * Python scripting was written for migration of data from Salesforce CSV files to new PostGres Database
 
 ## V2 Expectations
   This project, along with the other 4 teams who participated, was handed to Deloitte as a prototype for them to build the working application with. While we do not know the status of that application, we certainly hope that our time and code was used effectively to the aid of those in the countries it was deployed in. 

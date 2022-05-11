@@ -34,7 +34,6 @@ From research to presentation of this application we were given 60 hours to work
 
   ![](./public/images/Design-Landing-half.png)
   ![](./public/images/Design-Sales-half.png)
-  ![](./public/images/Design-Distributor-Sales-half.png)
 
 ## Front-End Implementation
   ### Tech Used
@@ -45,6 +44,9 @@ From research to presentation of this application we were given 60 hours to work
   ![](https://img.shields.io/badge/-NodeJS-339933?style=flat-square&logo=Node.js&logoColor=white) 
   ![](https://img.shields.io/badge/-React_Router-CA4245?style=flat-square&for-the-badge&logo=react-router&logoColor=white) 
   ![](https://img.shields.io/badge/-Express-404D59?style=flat-square&for-the-badge&logo=express)
+
+  ![](./public/images/Front-end-landing-half.png)
+  ![](./public/images/frontend-sales.png)
 
   * Designed to load quickly and cleanly in low-bandwidth environments, we implemented a pie-chart npm package called [React-Minimal-Pie-Chart](https://www.npmjs.com/package/react-minimal-pie-chart) to make the load weight and time much quicker on the front-end.
   * Accordion style floating nav-bar with buttons to change pie-chart through RESTful API calls to backend for data.

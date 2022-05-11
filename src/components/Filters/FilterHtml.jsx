@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-import FilterItems from "./FilterItems";
 import './FilterHtml.css'
 
 const filterHtml = ({filterChange}) => {

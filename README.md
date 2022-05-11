@@ -30,8 +30,11 @@ From research to presentation of this application we were given 60 hours to work
 
 ## Design
   ### Tech Used
+  ![](https://img.shields.io/badge/-FIGMA-F24E1E?style=flat-square&logo=figma5&logoColor=white)
 
-  Images
+  ![](./public/images/Design-Landing-half.png)
+  ![](./international-aid-FE/public/images/Design-Sales-half.png)
+  ![](./international-aid-FE/public/images/Design-Distributor-Sales-half.png)
 
 ## Front-End Implementation
   ### Tech Used

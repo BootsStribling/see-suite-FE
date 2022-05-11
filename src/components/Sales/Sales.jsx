@@ -1,7 +1,9 @@
-import css from './Sales.module.css'
+import './Sales.css'
 import {useState, useEffect} from 'react'
 import { PieChart } from 'react-minimal-pie-chart'
 import * as salesService from '../../services/salesService'
+import { Label } from 'semantic-ui-react'
+import FilterHtml from '../Filters/FilterHtml'
 
 
 const Sales = () =>  {
@@ -52,12 +54,12 @@ const Sales = () =>  {
             startAngle={270}
             animate={true}
             animationDuration={2000}
-            labelStyle={css}
 
           />
         </div>
       </div>
-    </>
+      <FilterHtml filterChange={filterChange} />
+    </div>
   )
 }
 
